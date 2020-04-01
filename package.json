@@ -1,0 +1,22 @@
+{
+    "name": "collectaweb",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+    },
+    "devDependencies": {
+        "@types/node": "^13.9.8",
+        "@types/react": "^16.9.31",
+        "ts-node": "^8.6.2",
+        "typescript": "^3.7.5"
+    },
+    "dependencies": {
+        "next": "^9.3.3",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    }
+}
