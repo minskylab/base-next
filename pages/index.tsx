@@ -1,3 +1,4 @@
+import React from "react";
 import { NextPage } from "next";
 import { styled } from "linaria/react";
 import { motion } from "framer-motion";
@@ -11,7 +12,11 @@ const Center = styled.div`
     text-align: center;
 `;
 
-const Home: NextPage<{ userAgent: string }> = ({ userAgent }) => {
+interface HomeProps {
+    userAgent: string;
+}
+
+const Home: NextPage<HomeProps> = ({ userAgent }: HomeProps) => {
     return (
         <Center>
             <div>
