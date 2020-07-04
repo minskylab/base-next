@@ -36,3 +36,9 @@ steps:
         from_secret: telegram_token
       to:
         from_secret: telegram_to_id
+    when:
+      status:
+        - failure
+        - success
+    depends_on:
+      - docker-registry
