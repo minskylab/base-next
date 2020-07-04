@@ -8,3 +8,11 @@ steps:
       - yarn
       - yarn lint
       - yarn build
+  - name: docker
+    image: plugins/docker
+    repo: minskylab/webbase
+    settings:
+      username:
+        from_secret: docker_username
+      password:
+        from_secret: docker_password
