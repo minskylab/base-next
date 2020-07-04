@@ -23,9 +23,9 @@ steps:
         from_secret: telegram_to_id
   - name: docker-registry
     image: plugins/docker
-    repo: minskylab/webbase
-    tags: "v1.0.0"
     settings:
+      repo: minskylab/webbase
+      tags: latest
       username:
         from_secret: docker_username
       password:
