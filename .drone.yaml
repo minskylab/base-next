@@ -8,19 +8,14 @@ steps:
       - yarn
       - yarn lint
       - yarn build
+
   - name: test-node-14
     image: node:14
     commands:
       - yarn
       - yarn lint
       - yarn build
-  - name: send telegram notification
-    image: appleboy/drone-telegram
-    settings:
-      token:
-        from_secret: telegram_token
-      to:
-        from_secret: telegram_to_id
+
   - name: docker-registry
     image: plugins/docker
     settings:
@@ -30,3 +25,14 @@ steps:
         from_secret: docker_username
       password:
         from_secret: docker_password
+    when:
+      branch:
+        - master
+
+  - name: telegram-notification
+    image: appleboy/drone-telegram
+    settings:
+      token:
+        from_secret: telegram_token
+      to:
+        from_secret: telegram_to_id
