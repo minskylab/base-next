@@ -1,9 +1,10 @@
 kind: pipeline
 type: kubernetes
-name: example
+name: webbase
 steps:
-  - name: greeting
-    image: alpine
+  - name: test-node-12
+    image: node:12
     commands:
-      - echo hello
-      - echo world
+      - yarn
+      - yarn lint
+      - yarn build
