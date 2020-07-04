@@ -17,7 +17,7 @@ steps:
   - name: docker-registry
     image: plugins/docker
     repo: minskylab/webbase
-    tags: latest
+    auto_tag: true
     settings:
       username:
         from_secret: docker_username
