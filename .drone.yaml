@@ -8,9 +8,16 @@ steps:
       - yarn
       - yarn lint
       - yarn build
-  - name: docker
+  - name: test-node-14
+    image: node:14
+    commands:
+      - yarn
+      - yarn lint
+      - yarn build
+  - name: docker-registry
     image: plugins/docker
     repo: minskylab/webbase
+    tags: latest
     settings:
       username:
         from_secret: docker_username
