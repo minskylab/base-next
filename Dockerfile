@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:14
 
 ENV PORT 3000
 
@@ -7,15 +7,16 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Installing dependencies
-COPY package*.json /usr/src/app/
-RUN npm install
+COPY package.json /usr/src/app/
+COPY yarn.* /usr/src/app/
+RUN yarn
 
 # Copying source files
 COPY . /usr/src/app
 
 # Building app
-RUN npm run build
+RUN yarn build
 EXPOSE 3000
 
 # Running the a pp
-CMD "npm" "run" "start"
+CMD ["yarn", "start"]
