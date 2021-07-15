@@ -2,6 +2,7 @@ import { Box, List, ListIcon, ListItem, Skeleton, Stack, Text, useToast } from "
 import { useListUsersQuery } from "integration/graphql";
 import { CheckIcon } from "@chakra-ui/icons";
 import { useEffect } from "react";
+
 type ListUsersProps = {};
 
 const ListUsers = ({}: ListUsersProps) => {
@@ -17,7 +18,7 @@ const ListUsers = ({}: ListUsersProps) => {
         duration: 5000,
         isClosable: true,
       });
-  }, [error]);
+  }, [toast, error]);
 
   return (
     <Box>
@@ -36,7 +37,7 @@ const ListUsers = ({}: ListUsersProps) => {
         )}
         <List spacing={3}>
           {data?.users?.data?.map(user => (
-            <ListItem>
+            <ListItem key={user?.id}>
               <ListIcon as={CheckIcon} color="green.500" />
               <b>Hello</b> {user?.name}
             </ListItem>
