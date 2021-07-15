@@ -5,13 +5,12 @@ import {
   createClient,
   dedupExchange,
   errorExchange,
-  fetchExchange
+  fetchExchange,
 } from "urql";
-
 
 export const URQLClient = () => {
   return createClient({
-    url: "https://fairpay.dev.minsky.cc/v1/graphql",
+    url: "https://graphqlzero.almansi.me/api",
     exchanges: [
       devtoolsExchange,
       dedupExchange,
