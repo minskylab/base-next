@@ -12,7 +12,7 @@ tasks:
     cmds:
       - yarn generate
 
-  publish-docker:
+  docker-publish:
     cmds:
       - task: generate
       - docker build -t {{.REGISTRY_ENDPOINT}}/{{.CONTAINER_NAME}}:{{.TAG}} .
