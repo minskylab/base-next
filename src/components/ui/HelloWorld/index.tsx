@@ -1,4 +1,4 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
 import React from "react";
 
 type HelloWorldProps = {
@@ -7,8 +7,8 @@ type HelloWorldProps = {
 
 const HelloWorld = ({ name = "World" }: HelloWorldProps) => {
   return (
-    <Box>
-      <Text>Hello {name}</Text>
+    <Box textAlign={"center"}>
+      <Heading>Hello {name}</Heading>
     </Box>
   );
 };

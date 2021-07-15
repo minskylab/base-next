@@ -1,12 +1,3 @@
-import { Center } from "@chakra-ui/react";
-import { HelloWorld } from "components/ui/HelloWorld";
+import { HomePageContent } from "modules/home/HomePageContent";
 
-const HomePage = () => {
-  return (
-    <Center>
-      <HelloWorld />
-    </Center>
-  );
-};
-
-export default HomePage;
+export default HomePageContent;
