@@ -1,26 +1,30 @@
-// theme.js
-import { extendTheme } from "@chakra-ui/react";
+import { Colors, TypographyProps, extendTheme, ThemeConfig } from "@chakra-ui/react";
+import { GlobalStyles } from "@chakra-ui/theme-tools";
 
-import Button from "./components/button";
-import borders from "./foundations/borders";
-import breakpoints from "./foundations/breakpoints";
-import colors from "./foundations/colors";
-import fonts from "./foundations/fonts";
-import fontWeights from "./foundations/fontWeights";
-import textStyles from "./foundations/textStyles";
-
-const overrides = {
-  borders,
-  breakpoints,
-  colors,
-  fonts,
-  fontWeights,
-  textStyles,
-  components: {
-    Button,
-  },
+const config: ThemeConfig = {
+  // initialColorMode: "dark",
+  useSystemColorMode: true,
 };
 
-const customTheme = extendTheme(overrides);
+const colors: Colors = {
+  primary: "#8F98FE",
+  secondary: "#FEE7AF",
+};
 
-export {customTheme};
+const fonts = {
+  body: "Open Sans, system-ui, sans-serif",
+  heading: "Georgia, serif",
+  mono: "Menlo, monospace",
+};
+
+const styles: GlobalStyles = {
+  global: () => ({
+    "html, body": {
+      backgroundColor: "dark",
+    },
+  }),
+};
+
+const customTheme = extendTheme({ colors, config, styles, fonts });
+
+export { customTheme };
