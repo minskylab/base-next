@@ -632,7 +632,7 @@
   dependencies:
     "@chakra-ui/utils" "1.10.4"
 
-"@chakra-ui/icons@^1.1.7":
+"@chakra-ui/icons@1.1.7":
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-1.1.7.tgz#f8c0c44a969c8654b90026b7d375b550c4bfbc49"
   integrity sha512-YIHxey/B4M2PyFASlHXtAWFyW+tsAtGAChOJ8dsM2kpu1MbVUqm/6nMI1KIFd7Te5IWuNYA75rAHBdLI0Yu61A==
@@ -804,7 +804,7 @@
   dependencies:
     "@chakra-ui/utils" "^1.10.4"
 
-"@chakra-ui/react@^1.8.6":
+"@chakra-ui/react@1.8.6":
   version "1.8.6"
   resolved "https://registry.yarnpkg.com/@chakra-ui/react/-/react-1.8.6.tgz#e37b9df24fa2ec7d91d2baaa00fd617e3a1bd80c"
   integrity sha512-FEh/KG0uPeNOMQuIlyPfGjHvGB7LN1AAhkdFefqzNt0zNy8Giv4p1PKY7wdCh5QEFor++A83L1wIWvTGQVJ2vQ==
@@ -1120,7 +1120,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-1.1.0.tgz#56d99c41f0a1cda2726a05aa6a20afd4c63e58d2"
   integrity sha512-u0AX4aSo25sMAygCuQTzS+HsImZFuS8llY8O7b9MDRzbJM0kVJlAz6KNDqcG7pOuQZJmj/8X/rAW+66kMnMW+g==
 
-"@emotion/styled@^11.8.1":
+"@emotion/styled@11.8.1":
   version "11.8.1"
   resolved "https://registry.yarnpkg.com/@emotion/styled/-/styled-11.8.1.tgz#856f6f63aceef0eb783985fa2322e2bf66d04e17"
   integrity sha512-OghEVAYBZMpEquHZwuelXcRjRJQOVayvbmNR0zr174NHdmMgrNkLC6TljKC5h9lZLkN5WGrdUcrKlOJ4phhoTQ==
@@ -1171,7 +1171,7 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@graphql-codegen/cli@^2.6.2":
+"@graphql-codegen/cli@2.6.2":
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-2.6.2.tgz#a9aa4656141ee0998cae8c7ad7d0bf9ca8e0c9ae"
   integrity sha512-UO75msoVgvLEvfjCezM09cQQqp32+mR8Ma1ACsBpr7nroFvHbgcu2ulx1cMovg4sxDBCsvd9Eq/xOOMpARUxtw==
@@ -1847,7 +1847,7 @@
     "@graphql-typed-document-node/core" "^3.1.1"
     wonka "^4.0.14"
 
-"@urql/devtools@^2.0.3":
+"@urql/devtools@2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@urql/devtools/-/devtools-2.0.3.tgz#780998c37386c72af9402a8f88c1b388e62f28cd"
   integrity sha512-TktPLiBS9LcBPHD6qcnb8wqOVcg3Bx0iCtvQ80uPpfofwwBGJmqnQTjUdEFU6kwaLOFZULQ9+Uo4831G823mQw==
@@ -3150,7 +3150,7 @@ formdata-node@^4.3.1:
     node-domexception "1.0.0"
     web-streams-polyfill "4.0.0-beta.1"
 
-framer-motion@^6.2.8:
+framer-motion@6.2.8:
   version "6.2.8"
   resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-6.2.8.tgz#02abb529191af7e2df444185fe27e932215b715d"
   integrity sha512-4PtBWFJ6NqR350zYVt9AsFDtISTqsdqna79FvSYPfYDXuuqFmiKtZdkTnYPslnsOMedTW0pEvaQ7eqjD+sA+HA==
@@ -3370,7 +3370,7 @@ graphql-ws@^5.4.1:
   resolved "https://registry.yarnpkg.com/graphql-ws/-/graphql-ws-5.6.2.tgz#c7e5e382bd80d7fef637ea0b86ef4b1cb3d0b09b"
   integrity sha512-TsjovINNEGfv52uKWYSVCOLX9LFe6wAhf9n7hIsV3zjflky1dv/mAP+kjXAXsnzV1jH5Sx0S73CtBFNvxus+SQ==
 
-graphql@^16.3.0:
+graphql@16.3.0:
   version "16.3.0"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.3.0.tgz#a91e24d10babf9e60c706919bb182b53ccdffc05"
   integrity sha512-xm+ANmA16BzCT5pLjuXySbQVFwH3oJctUVdy81w1sV0vBU0KgDdBGtxQOUd5zqOBk/JayAFeG8Dlmeq74rjm/A==
@@ -5429,7 +5429,7 @@ url-parse-lax@^3.0.0:
   dependencies:
     prepend-http "^2.0.0"
 
-urql@^2.2.0:
+urql@2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/urql/-/urql-2.2.0.tgz#5eade2813f5b61497086a5038ecc7c6e7cbd7153"
   integrity sha512-36wnWqDrpXqhwT5r2/qRSZXhb7Y4sXA0nLlYEd3uLgvfIdOA8kUaPdfTujzfrvfCcfiVVFxhzqVAhc8r17NMwQ==
