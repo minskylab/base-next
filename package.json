@@ -27,7 +27,7 @@
     "@graphql-codegen/typescript": "^2.4.5",
     "@graphql-codegen/typescript-operations": "^2.3.2",
     "@graphql-codegen/typescript-urql": "^3.5.3",
-    "@types/react": "17.0.39",
+    "@types/react": "17.0.42",
     "eslint": "8.10.0",
     "eslint-config-next": "12.1.0",
     "prettier": "2.6.0",
