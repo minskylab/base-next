@@ -20,7 +20,7 @@
     "next": "12.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "urql": "2.2.0"
+    "urql": "2.2.2"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "2.6.2",
