@@ -4,7 +4,7 @@ import { URQLClient } from "lib/client";
 import { ColorScheme, ColorSchemeProvider, MantineProvider } from "@mantine/core";
 import Fonts from "theming/fonts";
 import { useState } from "react";
-import { getCookie, setCookies } from "cookies-next";
+import { getCookie, setCookie } from "cookies-next";
 import { GetServerSidePropsContext } from "next";
 import { colorBrandDark, colorBrandPrimary } from "theming";
 
@@ -17,7 +17,7 @@ const FairpayApp = (props: AppProps & { colorScheme: ColorScheme }) => {
   const toggleColorScheme = (value?: ColorScheme) => {
     const nextColorScheme = value || (colorScheme === "dark" ? "light" : "dark");
     setColorScheme(nextColorScheme);
-    setCookies("mantine-color-scheme", nextColorScheme, { maxAge: 60 * 60 * 24 * 30 });
+    setCookie("mantine-color-scheme", nextColorScheme, { maxAge: 60 * 60 * 24 * 30 });
   };
 
   return (
