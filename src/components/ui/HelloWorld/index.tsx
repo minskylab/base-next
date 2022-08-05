@@ -1,4 +1,4 @@
-import { Box, Heading } from "@chakra-ui/react";
+import { Title } from "@mantine/core";
 
 type HelloWorldProps = {
   name?: string;
@@ -6,9 +6,9 @@ type HelloWorldProps = {
 
 const HelloWorld = ({ name = "World" }: HelloWorldProps) => {
   return (
-    <Box textAlign={"center"}>
-      <Heading>Hello {name}</Heading>
-    </Box>
+    <>
+      <Title>Hello {name}</Title>
+    </>
   );
 };
 
