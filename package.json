@@ -12,8 +12,8 @@
   "dependencies": {
     "@chakra-ui/icons": "2.0.6",
     "@chakra-ui/react": "2.2.6",
-    "@emotion/react": "11.10.0",
-    "@emotion/styled": "11.10.0",
+    "@emotion/react": "11.10.4",
+    "@emotion/styled": "11.10.4",
     "@urql/devtools": "2.0.3",
     "framer-motion": "7.0.0",
     "graphql": "16.5.0",
