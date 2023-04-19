@@ -9,7 +9,7 @@ generates:
     plugins:
       - "typescript"
       - "typescript-operations"
-      - "typescript-urql"
-    config:
-      withComponent: false
-      withHooks: true
+      - "typed-document-node"
+    hooks:
+      afterOneFileWrite:
+        - yarn prettier --write

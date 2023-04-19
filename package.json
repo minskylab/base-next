@@ -10,27 +10,33 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/icons": "2.0.9",
-    "@chakra-ui/react": "2.3.2",
-    "@emotion/react": "11.10.4",
-    "@emotion/styled": "11.10.4",
+    "@emotion/react": "^11.10.6",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "11.10.6",
+    "@mantine/core": "^6.0.8",
+    "@mantine/hooks": "^6.0.8",
+    "@mantine/next": "^6.0.8",
     "@urql/devtools": "2.0.3",
-    "framer-motion": "7.10.3",
+    "cookies-next": "^2.1.1",
+    "framer-motion": "10.12.4",
     "graphql": "16.6.0",
-    "next": "12.3.0",
+    "next": "13.3.0",
+    "next-translate": "^2.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "urql": "3.0.4"
+    "tabler-icons-react": "^1.56.0",
+    "urql": "4.0.0"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "2.12.0",
-    "@graphql-codegen/typescript": "2.7.3",
-    "@graphql-codegen/typescript-operations": "2.5.3",
-    "@graphql-codegen/typescript-urql": "3.7.0",
-    "@types/react": "18.0.19",
-    "eslint": "8.23.1",
-    "eslint-config-next": "12.3.0",
-    "prettier": "2.7.1",
-    "typescript": "4.8.3"
+    "@graphql-codegen/cli": "3.3.0",
+    "@graphql-codegen/typed-document-node": "^4.0.0",
+    "@graphql-codegen/typescript": "3.0.3",
+    "@graphql-codegen/typescript-operations": "3.0.3",
+    "@types/react": "18.0.37",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "next-translate-plugin": "^2.0.5",
+    "prettier": "2.8.7",
+    "typescript": "5.0.4"
   }
 }
