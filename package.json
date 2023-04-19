@@ -15,7 +15,7 @@
     "@emotion/react": "11.10.4",
     "@emotion/styled": "11.10.4",
     "@urql/devtools": "2.0.3",
-    "framer-motion": "7.3.2",
+    "framer-motion": "7.10.3",
     "graphql": "16.6.0",
     "next": "12.3.0",
     "react": "18.2.0",
