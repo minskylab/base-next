@@ -10,8 +10,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/icons": "2.0.9",
-    "@chakra-ui/react": "2.3.2",
+    "@chakra-ui/icons": "2.0.18",
+    "@chakra-ui/react": "2.5.5",
     "@emotion/react": "11.10.4",
     "@emotion/styled": "11.10.4",
     "@urql/devtools": "2.0.3",
