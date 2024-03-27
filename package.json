@@ -32,7 +32,7 @@
     "@graphql-codegen/typed-document-node": "^4.0.0",
     "@graphql-codegen/typescript": "3.0.3",
     "@graphql-codegen/typescript-operations": "3.0.3",
-    "@types/react": "18.0.37",
+    "@types/react": "18.2.73",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
     "next-translate-plugin": "^2.0.5",
