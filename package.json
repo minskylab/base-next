@@ -18,7 +18,7 @@
     "@mantine/next": "^6.0.8",
     "@urql/devtools": "2.0.3",
     "cookies-next": "^2.1.1",
-    "framer-motion": "10.12.4",
+    "framer-motion": "10.18.0",
     "graphql": "16.6.0",
     "next": "13.3.0",
     "next-translate": "^2.0.5",
